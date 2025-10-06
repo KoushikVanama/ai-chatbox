@@ -1,0 +1,8 @@
+.DS_Store
+# Ignore local LLM models
+models/
+*.gguf
+*.ggml
+*.bin
+*.pt
+*.safetensors

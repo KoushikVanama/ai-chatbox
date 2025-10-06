@@ -11,7 +11,8 @@ function App() {
       body: JSON.stringify({ prompt })
     });
     const j = await r.json();
-    setResp(j.text);
+    // setResp(j.text);
+    setResp(j.response)
   }
 
   return (
